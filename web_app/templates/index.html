@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Banking Demo</h1>
+
+    <h2>Report</h2>
+    <pre>{{ report }}</pre>
+
+    <h2>Decision</h2>
+    <p>{{ decision }}</p>
+
+    <h2>Visualization</h2>
+    <img src="/images/{{ visualization }}" alt="Loan Risk Visualization">
+</body>
+</html>
